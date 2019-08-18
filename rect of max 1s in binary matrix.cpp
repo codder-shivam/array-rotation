@@ -1,5 +1,7 @@
 // C++ program to find the largest rectangle of 1's with swapping
 // of columns allowed.
+
+
 #include<iostream>
 #include <bits/stdc++.h>
 
@@ -16,7 +18,8 @@ int main()
         int A[16][16];
         for(int i=0;i<m;i++)
             for(int j=0;j<n;j++)cin>>A[i][j];
-        //cout<<maxArea(A)<<endl;
+        //step 1:to make a temporary array to store the count of consecutive 1's in original matrix 
+	   	//temp array to store count of 1's is hist[][]
         int temp[m][n];
 
 		for (int i = 0; i < n; i++) {
