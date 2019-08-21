@@ -1,5 +1,6 @@
 // C++ program to find the largest rectangle of 1's with swapping
 // of columns allowed.
+// this is a code to rotate an 2d array
 
 
 #include<iostream>
